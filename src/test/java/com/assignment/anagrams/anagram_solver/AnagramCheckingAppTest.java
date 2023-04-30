@@ -68,7 +68,7 @@ class AnagramCheckingAppTest {
 	// To test these cases the user needs to give input
 	// 1st input: abcdefghi, 2nd input = abcd and 3rd input = abcd
 	// Then the test should pass 100%
-	// It fails if the user input inputs are not expected.
+	// It fails if the user inputs are not expected.
 
 	@Test
 	public void testValidInput() {

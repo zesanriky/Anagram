@@ -3,10 +3,7 @@ package com.assignment.anagrams.anagram_solver;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
+
 public class AnagramCheckingApp {
 	public static void main(String[] args) {
 

@@ -70,7 +70,7 @@ class AnagramCheckingAppTest {
 
 	/**
 	 * To test these cases the user needs to give input 1st input: abcdefghi, 2nd
-	 * input = abcd and 3rd input = abcd Then the test should pass 100% It fails if
+	 * input = abcd and 3rd input = abcd then the test should pass 100% but it fails if
 	 * the user input inputs are not expected.
 	 */
 

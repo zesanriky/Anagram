@@ -6,7 +6,7 @@ AnagramCheckingApp is a Java application that checks whether two input strings a
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your_username/AnagramCheckingApp.git`
+1. Clone the repository: `git clone https://github.com/zesanriky/Anagram.git
 2. Navigate to the project directory: `cd AnagramCheckingApp`
 3. Compile the Java files: `javac -d bin -cp src src/com/company/*.java`
 4. Run the application: `java -cp bin com.company.Main`

@@ -3,6 +3,10 @@ package com.assignment.anagrams.anagram_solver;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * @author rahman
+ *
+ */
 
 public class AnagramCheckingApp {
 	public static void main(String[] args) {
@@ -46,8 +50,13 @@ public class AnagramCheckingApp {
 
 	}
 
-	// Checking the given Strings anagrams possibility
+	/**
+	 * @param firstString
+	 * @param secondString
+	 * @return
+	 */
 
+	// Checking the given Strings anagrams possibility
 	public static boolean isAnagram(String firstString, String secondString) {
 
 		// Conversion from strings to character arrays
@@ -63,7 +72,13 @@ public class AnagramCheckingApp {
 		return Arrays.equals(firstArray, secondArray);
 	}
 
+	/**
+	 * @param input
+	 * @return
+	 */
+
 	// Checking is the user has only entered the alphabetic characters.
+
 	public static String checkInputValidation(String input) {
 
 		// Removing any leading/trailing white space and converting to lower case

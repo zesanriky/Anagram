@@ -77,7 +77,7 @@ public class AnagramCheckingApp {
 	 * @return
 	 */
 
-	// Checking is the user has only entered the alphabetic characters.
+	// Checking if the user has only entered the alphabetic characters.
 
 	public static String checkInputValidation(String input) {
 

@@ -7,6 +7,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/**
+ * @author rahman
+ *
+ */
+
 class AnagramCheckingAppTest {
 
 	@Test
@@ -63,12 +68,13 @@ class AnagramCheckingAppTest {
 
 	}
 
-	// Test for valid input containing only alphabetic characters
+	/**
+	 * To test these cases the user needs to give input 1st input: abcdefghi, 2nd
+	 * input = abcd and 3rd input = abcd Then the test should pass 100% It fails if
+	 * the user input inputs are not expected.
+	 */
 
-	// To test these cases the user needs to give input
-	// 1st input: abcdefghi, 2nd input = abcd and 3rd input = abcd
-	// Then the test should pass 100%
-	// It fails if the user inputs are not expected.
+	// Test for valid input containing only alphabetic characters
 
 	@Test
 	public void testValidInput() {
